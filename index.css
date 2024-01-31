@@ -1,25 +1,88 @@
-body{
-    text-align: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 1%, rgba(228,250,255,1) 64%);}
-div{
-    width: 60%;
-    margin: auto;
-    border: 1px solid black;
-    padding: 2rem;
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2018/09/21/15/06/notepad-3693309_1280.jpg");
+  background-size: cover;
+}
+.first-div,
+.second-div {
+  margin-inline: auto;
+  margin-bottom: 2rem;
+  max-width: 60%;
+  min-height: 15rem;
 }
 input {
-    padding: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #6c63ff;
+  border-radius: 25px;
+  width: 70%;
+  margin: 10px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.38);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.38);
 }
-form button{
-    padding: 0.6rem;
-    border: none;
-    color: white;
-    background-color:rgb(11, 165, 11) ;
+form button {
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.38);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.38);
+  margin: 10px;
+  padding: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  color: white;
+  background-color: #6c63ff;
+  border-radius: 50%;
+  font-size: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
-.line{
-    text-decoration: line-through;
+.second-div {
+  border: 1px solid grey;
+  background-color: rgb(252, 239, 222);
+  padding-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+/* li {
+  padding: 12px;
+  border-bottom: 1px solid grey;
+  cursor: alias;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+} */
+p:hover {
+  background-color: #6c63ff;
+  color: white;
+  cursor: pointer;
+}
+.btn {
+  color: #6c63ff;
+  background: none;
+  border: none;
+  float: right;
+  
+}
+.line {
+  text-decoration: line-through;
+  color: grey;
+}
+p{
+    display: inline-block;
+    margin: 0;
+    max-width: 90%;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+.div{
+    padding-inline: 16px;
+    max-width: 100%;
 }
