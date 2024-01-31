@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 1%, rgba(228,250,255,1) 64%);}
+div{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 2rem;
+}
+input {
+    padding: 0.5rem;
+}
+form button{
+    padding: 0.6rem;
+    border: none;
+    color: white;
+    background-color:rgb(11, 165, 11) ;
+}
+button{
+    cursor: pointer;
+}
+.line{
+    text-decoration: line-through;
+}
